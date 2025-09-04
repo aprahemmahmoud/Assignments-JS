@@ -57,10 +57,57 @@
 
 // console.log("`I'm In \n \\\\ \n Love \\\\ \"\"\" \'\'\' \n ++ with ++ \n \\\"\"\"\\\"\"\" \n \"\"JavaScript\"\"``")
 
-let a = 21;
-let b = 20;
+// let a = 21;
+// let b = 20;
 
-console.log("_"+b+("_"+ b +""+a).repeat(3)+"_"+a); // _21_2021_2021_2021_20_
+// console.log("_"+b+("_"+ b +""+a).repeat(3)+"_"+a); // _21_2021_2021_2021_20_
 
 
+// Replace ? With Arithmetic Operators
+// console.log((10 * 20) + 15 % 3 +(190 + 10) - 400); // 0
 
+
+// let num = 3;
+
+// Solution One
+// console.log(num+num); // 6
+
+// Solution Two
+// console.log(num*num-num); // 6
+
+// Soultion Three
+// console.log(num**(true+true)-num); // 6
+
+// Soultion Four
+// console.log(num**num/num-num); // 6
+
+// Solution Five
+// console.log(num+true+true+true); // 6
+
+// Solution Six
+// console.log( -(num-num*num)); // 6
+
+
+// let num = "10";
+
+// Solution One
+// console.log(-(-num-num)); // 20
+
+// // Solution Two
+// console.log(+num + +num); // 20
+
+// // Solution Three
+// console.log(Number(num)+ Number(num)); // 20
+
+// // Solution Four
+// console.log(+num+((true+true)*5)); // 20
+
+// let points = 10;
+
+// points += 3
+
+// console.log(points); // 13
+
+// points = points + 5
+
+// console.log(points); // 8;
