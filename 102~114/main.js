@@ -68,6 +68,88 @@
 
 // window.open("https://www.mozilla.org/", "mozillaWindow", "popup");
 
-window.localStorage.color = "red"
+let familyFont = document.getElementById("Family-Font")
+let fontColor = document.getElementById("Colors")
+let fontPexcl = document.getElementById("Pexcl")
+let text = document.getElementById("text")
 
-console.log(window.localStorage)
+
+
+//Family
+// familyFont.addEventListener("blur",function(event){
+//     text.style.fontFamily = event.target.value
+//     window.localStorage.familyFont = event.target.value
+// })
+
+// if(localStorage.familyFont != ""){
+//     text.style.fontFamily = localStorage.familyFont
+// }
+
+
+
+// //Color
+// fontColor.addEventListener("blur",function(event){
+//     text.style.color = event.target.value
+//     window.localStorage.fontColor = event.target.value
+// })
+
+// if(localStorage.fontColor != ""){
+//     text.style.color = localStorage.fontColor
+// }
+
+
+
+// //Pexcl
+// for(let i=16;i<=30;i++){
+// fontPexcl.innerHTML += `<option value="${i}px">${i}px</option>`
+// }
+
+// fontPexcl.addEventListener("blur",function(event){
+//     text.style.fontSize = event.target.value
+//     window.localStorage.fontPexcl = event.target.value
+
+// })
+
+// if(localStorage.fontPexcl != ""){
+//     text.style.fontSize = localStorage.fontPexcl
+// }
+
+
+
+
+
+
+
+
+/////////////////
+// let numOp = document.getElementById("nums")
+// let input = document.querySelectorAll("input")
+
+
+// input.forEach(function(el,i){
+//     el.addEventListener("keyup",function(){
+//         if(el.value != ""){
+//         window.sessionStorage.setItem(el.name,el.value)
+//         }
+//     })
+//     if(sessionStorage.getItem(el.name) != undefined){
+//         el.value = sessionStorage[el.name]
+//     }
+    
+// })
+
+
+
+
+
+// //numOp
+// for(let i=1;i<=5;i++){
+// numOp.innerHTML += `<option value="${i}">${i}</option>`
+// }
+// numOp.addEventListener("blur",function(el){
+//     window.sessionStorage.numOp = numOp.value 
+// })
+
+// if(window.sessionStorage.numOp != ""){
+//     numOp.value = window.sessionStorage.numOp
+// }
