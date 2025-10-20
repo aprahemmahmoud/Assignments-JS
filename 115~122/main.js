@@ -106,7 +106,7 @@
 // // Origin Price Is 30 USD
 
 
-// let chosen = 2;
+// let chosen = 3;
 
 // let myFriends = [
 //   { title: "Osama", age: 39, available: true, skills: ["HTML", "CSS"] },
@@ -116,9 +116,9 @@
 
 // // Write Your Code Here
 
-// let {title,age,available,skills:[skills_1,skills_2]} = myFriends[chosen]
+// let {title,age,available,skills:[skills_1,skills_2]} = myFriends[chosen -1]
 
-// console.log(myFriends[chosen])
+// console.log(myFriends[chosen - 1])
 // console.log(title)
 // console.log(age)
 // console.log(available)
