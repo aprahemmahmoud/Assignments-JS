@@ -86,18 +86,17 @@ console.log(word.match(/(ab)+/));
 
 
 
+// let date1 = "25/10/1982";
+// let date2 = "25 - 10 - 1982";
+// let date3 = "25 10 1982";
+// let date4 = "25 10 82";
 
-let date1 = "25/10/1982";
-let date2 = "25 - 10 - 1982";
-let date3 = "25 10 1982";
-let date4 = "25 10 82";
-
-let re = /s/;
-
-console.log(date1.match(re)); // "25/10/1982"
-console.log(date2.match(re)); // "25 - 10 - 1982"
-console.log(date3.match(re)); // "25 10 1982"
-console.log(date4.match(re)); // "25 10 82"
+// let re = /\d{1,2}(?:\/|\s|\s-\s)\d{1,2}(?:\/|\s|\s-\s)(?:\d{4}|\d{2})/;
+// // (\/)\d{4}
+// console.log(date1.match(re)); // "25/10/1982"
+// console.log(date2.match(re)); // "25 - 10 - 1982"
+// console.log(date3.match(re)); // "25 10 1982"
+// console.log(date4.match(re)); // "25 10 82"
 
 
 
@@ -108,10 +107,10 @@ console.log(date4.match(re)); // "25 10 82"
 // let url4 = 'https://www.elzero.org';
 // let url5 = 'https://www.elzero.org:8080/articles.php?id=100&cat=topics';
 
-// let rage = //; // Write Your Pattern Here
+// ra = /(?:http:\/\/|https:\/\/)?(?:www.)?\w+.(?:\w{3,10})(?:.+)?/;
 
-// console.log(url1.match(rage));
-// console.log(url2.match(rege));
-// console.log(url3.match(rege));
-// console.log(url4.match(rege));
-// console.log(url5.match(rege));
+// console.log(url1.match(ra));
+// console.log(url2.match(ra));
+// console.log(url3.match(ra));
+// console.log(url4.match(ra));
+// console.log(url5.match(ra));
